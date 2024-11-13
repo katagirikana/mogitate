@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #555;
+}
+
+a.product-list {
+    color: #4592eb;
+    text-decoration: none;
+    
+}
+
+.product-info {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.product-image img {
+    width: 300px;
+    height: auto;
+}
+
+.product-details {
+    margin-left: 20px;
+    flex: 1;
+}
+
+.product-details label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.product-details input[type="text"],
+.product-details input[type="number"],
+.product-details textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.season-options {
+    display: flex;
+    gap: 10px;
+}
+
+.update-btn {
+    background-color: #f8aa24;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.back-btn {
+    background-color: #ddd;
+    color: #555;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.button-container {
+    display: flex;
+    /* ボタンを横並びに */
+    align-items: center;
+    /* 垂直に中央揃え */
+    margin-top: 20px;
+    /* 上に隙間 */
+}
+
+.back-btn {
+    background-color: #ddd;
+    /* グレーの背景 */
+    color: #555;
+    /* 文字色 */
+    padding: 10px 20px;
+    /* 内側の余白 */
+    text-decoration: none;
+    /* 下線を削除 */
+    border-radius: 4px;
+    /* 角を丸める */
+    margin-right: 10px;
+    /* 右に隙間を持たせる */
+}
+
+.update-btn {
+    background-color: #f8aa24;
+    /* 黄色の背景 */
+    color: #fff;
+    /* 文字色 */
+    padding: 10px 20px;
+    /* 内側の余白 */
+    border: none;
+    /* ボーダーなし */
+    border-radius: 4px;
+    /* 角を丸める */
+    margin: 10px;
+    /* 右に隙間を持たせる */
+}
+
+.delete-btn {
+    background-color: transparent;
+    /* 背景を透明に */
+    border: none;
+    /* ボーダーなし */
+    cursor: pointer;
+    /* カーソルをポインターに */
+}
+
+.delete-btn i {
+    color: #e74c3c;
+    /* アイコンの色を赤に */
+    font-size: 20px;
+    margin-left: auto;
+}
+
+.delete-btn:hover {
+    opacity: 0.8;
+    /* ホバー時に少し透明に */
+}
